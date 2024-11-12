@@ -1,0 +1,200 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    padding: 0 20px;
+    background-color: #f4f4f4;
+}
+
+#navbar {
+    display: flex;
+}
+#logo-image {
+    width: 150px;
+    height: auto;
+}
+
+/* Header */
+header {
+    background: #07668e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background: #07668e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #21a5d4;
+}
+
+/* About Section */
+#aboutus {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+#aboutus p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+#ourservices {
+    background: #e2e2e2;
+    padding: 50px 20px;
+}
+
+#ourservices h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.service-card {
+    background: #fff;
+    padding: 20px;
+    width: 30%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    font-size: 16px;
+}
+
+/* Team Section */
+#ourteam {
+    background: #fff;
+    padding: 50px 20px;
+}
+
+#ourteam h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-member {
+    text-align: center;
+    width: 30%;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 16px;
+}
+
+/* Contact Section */
+#contactus {
+    padding: 50px 20px;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+#contactus address {
+    font-size: 18px;
+}
+
+.container-contact {
+    display: flex;
+}
+
+
+.map-container {
+    width: 50px;
+    height: auto;
+
+}
+/* Footer */
+footer {
+    background: #4f4e4e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
