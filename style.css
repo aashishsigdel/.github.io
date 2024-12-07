@@ -18,22 +18,26 @@ body {
     display: flex;
 }
 #logo-image {
-    width: 150px;
+    width: 500px;
     height: auto;
+    position:relative;
+    right: 100px;
+    bottom: 70px;
 }
 
 /* Header */
 header {
     background: #07668e;
     color: #fff;
-    padding: 20px 0;
-    text-align: center;
+    padding: 10px 10px;
+    text-align: right;
 }
 
 header h1 {
-    margin-bottom: 10px;
-    font-size: 50px;
-}
+    margin-bottom: 5px;
+    font-size: 70px;
+    text-align: left;
+    }
 
 nav ul {
     list-style: none;
@@ -170,7 +174,7 @@ nav ul li a {
 #contactus {
     padding: 50px 20px;
     background: #f1f1f1;
-    text-align: center;
+    text-align: left;
 }
 
 #contactus address {
@@ -185,7 +189,9 @@ nav ul li a {
 .map-container {
     width: 50px;
     height: auto;
-
+    position: relative;
+    left: 250px;
+    top: 10px;
 }
 /* Footer */
 footer {
