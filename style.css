@@ -16,13 +16,17 @@ body {
 
 #navbar {
     display: flex;
+    height: 200px;
+    /* background-color: #e2e2e2; */
 }
 #logo-image {
-    width: 500px;
-    height: auto;
+    margin-top: 35px;
+    margin-left: 45px;
+    width: 300px;
+    height: 225px;
     position:relative;
-    right: 100px;
-    bottom: 70px;
+    right: 80px;
+    bottom: 50px;
 }
 
 /* Header */
@@ -33,10 +37,11 @@ header {
     text-align: right;
 }
 
-header h1 {
-    margin-bottom: 5px;
-    font-size: 70px;
+.title-container h1 {
+
+    font-size: 50px;
     text-align: left;
+
     }
 
 nav ul {
@@ -45,7 +50,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 nav ul li a {
@@ -89,6 +94,9 @@ nav ul li a {
     padding: 50px 20px;
     background: #fff;
     text-align: center;
+}
+.title-container{
+    height: 50px;
 }
 
 #aboutus p {
@@ -203,4 +211,16 @@ footer {
 
 footer p {
     font-size: 16px;
+}
+
+
+.map-container{
+    margin-right: 30px;
+
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+
 }
